@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts />
+    <Ignored>
+        <KeyValueItem>
+            <Key>X:\Share\ED\RPA\Primo\Challenge\SetToBrowser.ltw</Key>
+            <Value>8eb8c219-5abc-41c4-8d82-150b519d1050</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\JOB\Rondem\Projects\Compare test\Challenge\DownloadPowerShell.ltw</Key>
+            <Value>3714a61d-de6d-4d71-b6b9-ab953a75c026</Value>
+        </KeyValueItem>
+    </Ignored>
+    <Breakpoints />
+    <Git />
+    <LastOpenedItems>
+        <string>X:\Share\ED\RPA\Primo\Challenge\StartAndDownload.ltw</string>
+        <string>X:\Share\ED\RPA\Primo\Challenge\GetData.ltw</string>
+        <string>X:\Share\ED\RPA\Primo\Challenge\SetToBrowser.ltw</string>
+        <string>C:\JOB\Rondem\Projects\Compare test\Challenge\Main.ltw</string>
+        <string>C:\JOB\Rondem\Projects\Compare test\Challenge\SetToBrowser.ltw</string>
+        <string>C:\JOB\Rondem\Projects\Compare test\Challenge\DownloadPowerShell.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
