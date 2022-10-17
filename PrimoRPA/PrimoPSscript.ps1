@@ -1,4 +1,4 @@
-Write-Output "Wait for start"
+Write-Output "Open test project in PrimoRPA studio and start debugging"
 
 while ( -not (get-process | where {$_.ProcessName -eq "Primo.Robot.x64"}))
 {
@@ -17,7 +17,7 @@ while (get-process | where {$_.ProcessName -eq "Primo.Robot.x64"})
 $endTime = (Get-Date).DateTime
 $deltaTime = (New-TimeSpan -Start $startTime -End $endTime).TotalSeconds
 
-Write-Output "Primo result in seconds:"
+Write-Output "PrimoRPA process execution time (seconds):"
 Write-Output $deltaTime
 
 pause
