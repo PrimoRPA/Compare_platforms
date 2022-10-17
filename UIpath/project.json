@@ -1,7 +1,7 @@
 {
   "name": "Rpachallenge test",
   "description": "Процесс для проверки производительности роботов разных платформ путем заполнения форм на сайте rpachallenge.com. Перед запуском отладки или робота необходимо запустить powershell скрипт UIpathPSscript.ps1. Результатом его работы будет время активности робота в секундах.",
-  "main": "Main.xaml",
+  "main": "RPAchallenge.xaml",
   "dependencies": {
     "MSBuilder.DownloadFile": "[0.1.6]",
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -47,8 +47,8 @@
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "93b9481f-24f1-4f54-800e-409191f6f323",
+      "filePath": "RPAchallenge.xaml",
+      "uniqueId": "40bf941a-a295-4d4f-9725-672ec92fccbd",
       "input": [],
       "output": []
     }
