@@ -11,7 +11,7 @@
             <SerializationItem>
                 <IsListValue>false</IsListValue>
                 <Name>ComponentName</Name>
-                <Value xsi:type="xsd:string">Sequence</Value>
+                <Value xsi:type="xsd:string">Процесс заполнения страницы</Value>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -24,6 +24,7 @@
             <SerializationItem>
                 <IsListValue>false</IsListValue>
                 <Name>Variables</Name>
+                <Value xsi:type="ArrayOfScriptVariable" />
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -87,7 +88,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Attach browser</Value>
+                        <Value xsi:type="xsd:string">Присоединяемся к браузеру и заполняем поля</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -836,7 +837,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentName</Name>
-                                <Value xsi:type="xsd:string">Mouse click</Value>
+                                <Value xsi:type="xsd:string">Кликаем "Подтвердить"</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>

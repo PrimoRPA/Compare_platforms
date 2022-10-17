@@ -11,7 +11,7 @@
             <SerializationItem>
                 <IsListValue>false</IsListValue>
                 <Name>ComponentName</Name>
-                <Value xsi:type="xsd:string">Sequence</Value>
+                <Value xsi:type="xsd:string">Скачиваем файл challenge.xlsx и формируем пути к нему</Value>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -98,7 +98,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Присвоение</Value>
+                        <Value xsi:type="xsd:string">Находим путь к данному процессу</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -180,7 +180,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Присвоение</Value>
+                        <Value xsi:type="xsd:string">Формируем путь к файлу challenge.xlsx</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -252,7 +252,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Power Shell</Value>
+                        <Value xsi:type="xsd:string">Скачиваем файл challenge.xlsx при помощи скрипта PS</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -347,7 +347,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentName</Name>
-                        <Value xsi:type="xsd:string">Присвоение</Value>
+                        <Value xsi:type="xsd:string">Передаем аргументу путь к файлу</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
