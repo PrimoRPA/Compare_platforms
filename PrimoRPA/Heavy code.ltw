@@ -287,6 +287,24 @@ return primeNumber;
             <DataTypeString>Int32</DataTypeString>
             <Direction>IN_OUT</Direction>
         </ScriptVariable>
+        <ScriptVariable>
+            <Name>deltaTime</Name>
+            <Group>Time</Group>
+            <DataTypeString>Int64</DataTypeString>
+            <Direction>IN_OUT</Direction>
+        </ScriptVariable>
+        <ScriptVariable>
+            <Name>endTime</Name>
+            <Group>Time</Group>
+            <DataTypeString>DateTime</DataTypeString>
+            <Direction>IN_OUT</Direction>
+        </ScriptVariable>
+        <ScriptVariable>
+            <Name>startTime</Name>
+            <Group>Time</Group>
+            <DataTypeString>DateTime</DataTypeString>
+            <Direction>IN_OUT</Direction>
+        </ScriptVariable>
     </GlobalVariables>
     <Arguments />
 </SerializationRoot>
