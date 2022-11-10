@@ -28,6 +28,14 @@
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
+                <Name>WaitBefore</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>WaitAfter</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
                 <Name>ComponentID</Name>
                 <Value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">13b86e08-9009-47a1-a21c-ff08acaadf80</Value>
             </SerializationItem>
@@ -70,14 +78,6 @@
                 <IsListValue>false</IsListValue>
                 <Name>ShowAnnotation</Name>
                 <Value xsi:type="xsd:boolean">false</Value>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
-                <Name>WaitBefore</Name>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
-                <Name>WaitAfter</Name>
             </SerializationItem>
         </Properties>
         <Components>
@@ -200,7 +200,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Text</Name>
-                                <Value xsi:type="xsd:string">Table.Rows[i].ItemArray[0].ToString()</Value>
+                                <Value xsi:type="xsd:string">in_Row["First Name"].ToString()</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -219,6 +219,10 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ElementItem</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SText</Name>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -291,7 +295,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Text</Name>
-                                <Value xsi:type="xsd:string">Table.Rows[i].ItemArray[3].ToString()</Value>
+                                <Value xsi:type="xsd:string">in_Row["Role in Company"].ToString()</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -310,6 +314,10 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ElementItem</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SText</Name>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -382,7 +390,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Text</Name>
-                                <Value xsi:type="xsd:string">Table.Rows[i].ItemArray[4].ToString()</Value>
+                                <Value xsi:type="xsd:string">in_Row["Address"].ToString()</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -401,6 +409,10 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ElementItem</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SText</Name>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -473,7 +485,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Text</Name>
-                                <Value xsi:type="xsd:string">Table.Rows[i].ItemArray[2].ToString()</Value>
+                                <Value xsi:type="xsd:string">in_Row["Company Name"].ToString()</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -492,6 +504,10 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ElementItem</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SText</Name>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -564,7 +580,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Text</Name>
-                                <Value xsi:type="xsd:string">Table.Rows[i].ItemArray[6].ToString()</Value>
+                                <Value xsi:type="xsd:string">in_Row["Phone Number"].ToString()</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -583,6 +599,10 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ElementItem</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SText</Name>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -655,7 +675,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Text</Name>
-                                <Value xsi:type="xsd:string">Table.Rows[i].ItemArray[1].ToString()</Value>
+                                <Value xsi:type="xsd:string">in_Row["Last Name "].ToString()</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -674,6 +694,10 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ElementItem</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SText</Name>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -746,7 +770,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Text</Name>
-                                <Value xsi:type="xsd:string">Table.Rows[i].ItemArray[5].ToString()</Value>
+                                <Value xsi:type="xsd:string">in_Row["Email"].ToString()</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -765,6 +789,10 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ElementItem</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SText</Name>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -928,15 +956,9 @@
     <GlobalVariables />
     <Arguments>
         <ScriptVariable>
-            <Name>i</Name>
+            <Name>in_Row</Name>
             <Group />
-            <DataTypeString>Int32</DataTypeString>
-            <Direction>IN</Direction>
-        </ScriptVariable>
-        <ScriptVariable>
-            <Name>Table</Name>
-            <Group />
-            <DataTypeString>DataTable</DataTypeString>
+            <DataTypeString>DataRow</DataTypeString>
             <Direction>IN</Direction>
         </ScriptVariable>
     </Arguments>
